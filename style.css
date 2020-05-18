@@ -1,0 +1,53 @@
+
+html, body {
+    font-family: 'Poppins', sans-serif;
+}
+
+a:hover, a:visited, a:link, a:active {
+    text-decoration: none;
+    color: #2e6298;
+}
+
+ul {
+    list-style-type: circle;
+}
+
+main {
+    max-width: 800px;
+    margin: 10vh  auto;
+}
+
+#title {
+    display: inline-block;
+    width: 100%;
+}
+
+.name {
+    display: block;
+    float: left;
+    font-size: 32px;
+    top:35px;
+    position: relative;
+    border-bottom: 1px solid;
+}
+
+.picture {
+    display: block;
+    border-radius: 50%;
+    border: 2px solid #eee;
+    width: 120px;
+    height: 120px;
+    float: right;
+}
+
+.story {
+    font-style: italic;
+}
+
+#intro {
+    max-width: 500px;
+}
+
+#quotes {
+    margin: 40px 0 20px 0;
+}
